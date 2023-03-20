@@ -57,6 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Hello.cs" />
+    <Compile Include="Assets\Scripts\0320\Test_001.cs" />
+    <Compile Include="Assets\Scripts\0320\Test_002.cs" />
+    <Compile Include="Assets\Scripts\0320\Test_003.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
