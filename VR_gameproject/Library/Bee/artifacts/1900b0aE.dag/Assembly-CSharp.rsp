@@ -355,6 +355,9 @@
 "Assets/Scripts/0403/Test_006.cs"
 "Assets/Scripts/0403/Test_007.cs"
 "Assets/Scripts/0403/Test_008.cs"
+"Assets/Scripts/0410/CharacterRotation.cs"
+"Assets/Scripts/0410/SampleTileMap.cs"
+"Assets/Scripts/0410/SwipeSystem.cs"
 "Assets/Scripts/Hello.cs"
 -langversion:9.0
 
