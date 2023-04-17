@@ -56,18 +56,22 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\0410\SwipeSystem.cs" />
     <Compile Include="Assets\Scripts\0320\Test_001.cs" />
     <Compile Include="Assets\Scripts\Hello.cs" />
     <Compile Include="Assets\Scripts\0403\Test_007.cs" />
+    <Compile Include="Assets\Scripts\0410\SampleTileMap.cs" />
     <Compile Include="Assets\Scripts\0327\Test_004.cs" />
     <Compile Include="Assets\Scripts\0403\Test_006.cs" />
     <Compile Include="Assets\Scripts\0320\Test_002.cs" />
+    <Compile Include="Assets\Scripts\0410\CharacterRotation.cs" />
     <Compile Include="Assets\Scripts\0403\Test_008.cs" />
     <Compile Include="Assets\Scripts\0327\Test_005.cs" />
     <Compile Include="Assets\Scripts\0320\Test_003.cs" />
-    <Compile Include="Assets\Scripts\0410\SampleTileMap.cs" />
-    <Compile Include="Assets\Scripts\0410\CharacterRotation.cs" />
-    <Compile Include="Assets\Scripts\0410\SwipeSystem.cs" />
+    <Compile Include="Assets\Scripts\Controller\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Controller\ProjectileController.cs" />
+    <Compile Include="Assets\Scripts\Controller\ProjectileMove.cs" />
+    <Compile Include="Assets\Scripts\Controller\MonsterController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
