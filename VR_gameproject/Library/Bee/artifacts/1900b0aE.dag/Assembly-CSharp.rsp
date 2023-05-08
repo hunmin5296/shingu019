@@ -358,6 +358,8 @@
 "Assets/Scripts/0410/CharacterRotation.cs"
 "Assets/Scripts/0410/SampleTileMap.cs"
 "Assets/Scripts/0410/SwipeSystem.cs"
+"Assets/Scripts/Controller/EnemyController.cs"
+"Assets/Scripts/Controller/GenController.cs"
 "Assets/Scripts/Controller/MonsterController.cs"
 "Assets/Scripts/Controller/PlayerController.cs"
 "Assets/Scripts/Controller/ProjectileController.cs"

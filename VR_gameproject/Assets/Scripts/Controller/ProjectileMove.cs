@@ -20,6 +20,21 @@ public class ProjectileMove : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
+    private void OnTriggerEnter(Collider other)        //Trigger 함수
+    {   //벽에 충돌시 파괴
+        if (other.gameObject.tag == "Wall")             //Name-> Tag 로 변환
+        {
+            Destroy(this.gameObject);
+        }
+        //몬스터에 충돌시
+        if (other.gameObject.tag == "Monster")
+        {
+            other.gameObject.GetComponent<MonsterController>().Damaged(1);
+            Destroy(this.gameObject);
+        }
+    }
+
     private void FixedUpdate()
     {
         //시간대비 이동 량 float 값으로 선언
