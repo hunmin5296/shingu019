@@ -67,13 +67,13 @@
     <Compile Include="Assets\Scripts\Controller\ProjectileController.cs" />
     <Compile Include="Assets\Scripts\Controller\GenController.cs" />
     <Compile Include="Assets\Scripts\Controller\MonsterController.cs" />
+    <Compile Include="Assets\Scripts\Controller\EnemyController.cs" />
     <Compile Include="Assets\Scripts\0403\Test_006.cs" />
     <Compile Include="Assets\Scripts\0320\Test_002.cs" />
     <Compile Include="Assets\Scripts\0410\CharacterRotation.cs" />
     <Compile Include="Assets\Scripts\0403\Test_008.cs" />
     <Compile Include="Assets\Scripts\0327\Test_005.cs" />
     <Compile Include="Assets\Scripts\0320\Test_003.cs" />
-    <Compile Include="Assets\Scripts\Controller\EnemyController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -327,12 +327,6 @@
     </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Android.Types">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Android.Gradle">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
