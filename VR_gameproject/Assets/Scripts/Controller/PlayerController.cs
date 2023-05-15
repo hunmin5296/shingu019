@@ -10,6 +10,17 @@ public class PlayerController : MonoBehaviour
     Vector3 velocity;                                           //이동 방향 벡터를 선언
     public ProjectileController projectileController;           //발사체 클래스 선언
 
+    public int Player_Hp = 50;
+
+    public void Damanged(int Damage)
+    {
+        Player_Hp -= Damage;
+
+        if (Player_Hp < 0)
+        {
+            Destroy(this.gameObject);
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
